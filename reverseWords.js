@@ -15,3 +15,14 @@
 // The function should return the same word when the input is a single-word string.
 // The function should reverse the order of words in a string with multiple words.
 
+
+
+function reverseWords(str) {
+  let [] = str;
+  let strArray = str.split(" ");
+  let reversedArray = strArray.reverse();
+  let finalReverse = reversedArray.join(" ");
+  console.log(finalReverse);
+}
+
+reverseWords("No how about you do it");
