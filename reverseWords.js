@@ -17,12 +17,20 @@
 
 
 
+// function reverseWords(str) {
+//   let [] = str;
+//   let strArray = str.split(" ");
+//   let reversedArray = strArray.reverse();
+//   let finalReverse = reversedArray.join(" ");
+//   console.log(finalReverse);
+// }
+
+// reverseWords("No how about you do it");
+
 function reverseWords(str) {
-  let [] = str;
-  let strArray = str.split(" ");
-  let reversedArray = strArray.reverse();
-  let finalReverse = reversedArray.join(" ");
-  console.log(finalReverse);
+let [] = str
+let reverseStr = str.toLowerCase().split(" ").reverse().join(" ")
+console.log(reverseStr)
 }
 
-reverseWords("No how about you do it");
+reverseWords("Coding is vEry cooL")
